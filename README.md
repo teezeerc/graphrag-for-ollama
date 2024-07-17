@@ -22,3 +22,6 @@ for "llm:" config use
 
 for "embeddings:" config use
 - api_base: http://ollama_address:11434/api
+
+# acknowledgements
+- inspired by https://github.com/severian42/GraphRAG-Ollama-UI
