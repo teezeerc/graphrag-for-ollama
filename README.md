@@ -14,3 +14,11 @@ Only two files were changed: llm/openai/openai_embeddings_llm.py and query/llm/o
 - poetry install
 
 From that point follow instructions from original guide: https://microsoft.github.io/graphrag/posts/get_started/
+
+# settings.xml
+
+for "llm:" config use
+- api_base: http://ollama_address:11434/v1
+
+for "embeddings:" config use
+- api_base: http://ollama_address:11434/api
